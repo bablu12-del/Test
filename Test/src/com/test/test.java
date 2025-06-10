@@ -3,7 +3,9 @@ package com.test;
 
 import java.util.Stack;
 public class test{
+	
 	 public int longestValidParentheses(String s) {
+		 System.out.println("String s "+s);
 	        for(int i=0;i<s.length()-1;i++){
 	            if(s.charAt(i)+1==s.charAt(i+1)) {
 	            	
