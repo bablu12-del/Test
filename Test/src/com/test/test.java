@@ -17,6 +17,8 @@ public class test{
   
 	  public static void main(String[] args) {
 	    	test t=new test();
+	    	Docker docker=new Docker();
+	    	
 	    int[] nums= {1};
 	    int target=1;
 	    int [] arr={-1,-1};
