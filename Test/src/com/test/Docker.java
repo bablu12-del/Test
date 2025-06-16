@@ -6,6 +6,6 @@ public class Docker {
 	}
 	
 	static{
-		System.out.println("static Block in Docker file...");
+		System.out.println("static Block in Docker file...V3");
 	}
 }
