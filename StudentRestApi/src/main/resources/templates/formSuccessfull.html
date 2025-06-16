@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Submission Successful</title>
+</head>
+<body>
+
+<h1>Form Submitted Successfully!</h1>
+<p>ID: <span th:text="${emp.id}"></span></p>
+   <p>Name: <span th:text="${emp.name}"></span></p>
+   <p>PdfName: <span th:text="${emp.pdfName}"></span></p>
+   <p>PdfPath: <span th:text="${emp.pdfPath}"></span></p>
+   <p><span th:text="${emp.pdfPath}"></span></p>
+   
+   <p>
+          <a th:href="@{'/upload'}">Do You Want to Submit new Form</a>
+      </p>
+</body>
+</html>

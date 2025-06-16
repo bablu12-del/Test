@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select a File</title>
+</head>
+<body>
+
+    <h2>Choose a PDF file from your local system</h2>
+
+    <!-- Create a file input field that accepts only PDF files -->
+    <form id="fileForm" action="/uploadPDF" method="post" enctype="multipart/form-data">
+		Id: <input type="number" id="id" name="id" placeholder="Enter the Id"><br><br>
+		Name: <input type="text" id="name" name="name" placeholder="Enter the Name"><br><br>
+		Email: <input type="email" id="email" name="email" placeholder="Enter the Email"><br><br>
+        Choose a PDF file :<input type="file" id="fileInput" name="file" accept="application/pdf">
+        <br><br>
+        <button type="submit">Upload File</button>
+    </form>
+
+    <script>
+        // Optional: Add JavaScript to handle file selection or other actions if necessary
+    </script>
+
+</body>
+</html>
